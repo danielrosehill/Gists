@@ -14,16 +14,16 @@ Example:
 
 ```bash
 curl https://api.nuclino.com/v0/teams \
-  -H "Authorization: YOUR_API_KEY"
-  ```
+-H "Authorization: YOUR_API_KEY"
+```
 
-  ## Functional Python call to create a note at the items endpoint
+## Functional Python call to create a note at the items endpoint
 
 ```python
 def create_nuclino_note(title, content):
     url = "https://api.nuclino.com/v0/items"
     headers = {
-        "Authorization": f"{NUCLINO_API_KEY}",  # Correct Bearer format
+        "Authorization": f"{NUCLINO_API_KEY}",   
         "Content-Type": "application/json"
     }
- ```   
+```
